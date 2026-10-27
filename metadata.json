@@ -1,0 +1,18 @@
+{
+  "KPlugin": {
+    "Id": "org.hearnelabs.spotibar",
+    "Name": "SpotiBar",
+    "Description": "Sleek Spotify panel widget for CachyOS and KDE Plasma 6. Features Cachy Cyber Wave and Native Breeze styles with animated equalizers, track metadata, and quick controls.",
+    "Icon": "media-playback-start",
+    "Authors": [
+      {
+        "Name": "HearneLabs"
+      }
+    ],
+    "Category": "Multimedia",
+    "License": "GPL-3.0+",
+    "Version": "1.0.0"
+  },
+  "KPackageStructure": "Plasma/Applet",
+  "X-Plasma-API-Minimum-Version": "6.0"
+}

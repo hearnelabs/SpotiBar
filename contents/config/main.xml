@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <!-- widgetStyle: "cachyWave" (Mockup 4) or "nativeBreeze" (Mockup 3) -->
+    <entry name="widgetStyle" type="String">
+      <default>cachyWave</default>
+    </entry>
+    <!-- Maximum pixel width for track title display -->
+    <entry name="maxTitleWidth" type="Int">
+      <default>160</default>
+      <min>60</min>
+      <max>600</max>
+    </entry>
+    <!-- Whether to display the artist name -->
+    <entry name="showArtist" type="Bool">
+      <default>true</default>
+    </entry>
+    <!-- Whether to show pulsing equalizer bars in Cachy Wave mode -->
+    <entry name="showEqualizer" type="Bool">
+      <default>true</default>
+    </entry>
+    <!-- Target player name on MPRIS (default: spotify) -->
+    <entry name="playerTarget" type="String">
+      <default>spotify</default>
+    </entry>
+  </group>
+</kcfg>

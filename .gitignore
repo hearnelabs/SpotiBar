@@ -1,0 +1,14 @@
+# System and editor files
+*.swp
+*~
+.directory
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.kdev4
+
+# Temporary test files
+test_*.qml
+/tmp/
